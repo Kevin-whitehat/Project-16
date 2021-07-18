@@ -58,8 +58,7 @@ function draw() {
     if (fruitGroup.isTouching(knife)) {
       fruitGroup.destroyEach();
       score += 2
-      fruitGroup.setVelocityXEach += 0.5;
-      monsterGroup.setVelocityXEach += 0.5;
+
       knifeSound.play();
     }
     else {
